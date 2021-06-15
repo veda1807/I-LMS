@@ -10,17 +10,29 @@
       {
         "key" : "01",
         "type" : "Fillup",
-        "question" : "x = 36 / 4 * (3 +  2) * 4 + 2\nprint(x)"
+        "question" : {
+          "problem" : "Solve",
+          "snippet" : "x = 36 / 4 * (3 +  2) * 4 + 2\nprint(x)",
+          "language" : "python"
+        }
       },
       {
         "key" : "02",
         "type" : "Fillup",
-        "question" : "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)"
+        "question" : {
+          "problem" : "",
+          "snippet" : "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)",
+          "language" : "python"
+        }
       },
       {
         "key" :"03",
         "type" : "Fillup",
-        "question" : "for i in range(2):\nprint(i)"
+        "question" : {
+          "problem" : "",
+          "snippet" : "for i in range(2):\n\tprint(i)",
+          "language" : "python"
+        }
       },
       {
         "key" :"04",
@@ -36,7 +48,7 @@
           ],
           "explanation" : "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
           "language" : "python",
-          "snippet" : "for i in range(10):\n   print(i)"
+          "snippet" : "for i in range(10):\n\tprint(i)"
         }
       },
       {
