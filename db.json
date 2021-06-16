@@ -61,5 +61,25 @@
         }
       }
     ]
+  },
+
+  "answerkey" : {
+    "answers" : [
+      {
+        "key":"01",
+        "type": "Fillup",
+        "answer": "182"
+      },
+      {
+        "key":"02",
+        "type": "Fillup",
+        "answer": "{'Jodi', 'Vicki', 'Eric', 'Garry'}"
+      },
+      {
+        "key":"03",
+        "type": "Fillup",
+        "answer": "0\n1\n2"
+      }
+    ]
   }
 }
