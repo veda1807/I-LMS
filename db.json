@@ -1,85 +1,86 @@
 {
-  "assessment" :   {
-    "config" : {
-      "backnav" : true
+  "assessment": {
+    "config": {
+      "backnav": true
     },
-    "instructions" : [
-        "Program should be written in python language."
+    "instructions": [
+      "Program should be written in python language."
     ],
-    "questions" : [
+    "questions": [
       {
-        "key" : "01",
-        "type" : "Fillup",
-        "question" : {
-          "problem" : "Solve",
-          "snippet" : "x = 36 / 4 * (3 +  2) * 4 + 2\nprint(x)",
-          "language" : "python"
+        "key": "01",
+        "type": "Fillup",
+        "question": {
+          "problem": "Solve",
+          "snippet": "x = 36 / 4 * (3 +  2) * 4 + 2\nprint(x)",
+          "language": "python"
         }
       },
       {
-        "key" : "02",
-        "type" : "Fillup",
-        "question" : {
-          "problem" : "",
-          "snippet" : "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)",
-          "language" : "python"
+        "key": "02",
+        "type": "Fillup",
+        "question": {
+          "problem": "",
+          "snippet": "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)",
+          "language": "python"
         }
       },
       {
-        "key" :"03",
-        "type" : "Fillup",
-        "question" : {
-          "problem" : "",
-          "snippet" : "for i in range(2):\n\tprint(i)",
-          "language" : "python"
+        "key": "03",
+        "type": "Fillup",
+        "question": {
+          "problem": "",
+          "snippet": "for i in range(2):\n\tprint(i)",
+          "language": "python"
         }
       },
       {
-        "key" :"04",
-        "type" : "Editor",
-        "question" : {
-          "problem" : "You are given words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.",
+        "key": "04",
+        "type": "Editor",
+        "question": {
+          "problem": "You are given words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.",
           "sample": [
             {
-              "id" : "1",
-              "input" : "4\nbcdef\nabcdefg\nbcde\nbcdef",
-              "output" : "3\n2 1 1"
+              "id": "1",
+              "input": "4\nbcdef\nabcdefg\nbcde\nbcdef",
+              "output": "3\n2 1 1"
             }
           ],
-          "explanation" : "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
-          "language" : "python",
-          "snippet" : "for i in range(10):\n\tprint(i)"
+          "explanation": "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
+          "language": "python",
+          "snippet": "for i in range(10):\n\tprint(i)"
         }
       },
       {
-        "key" :"05",
-        "type" : "Editor",
-        "question" : {
-          "problem" : "Write the function isRotation(a1, a2) that takes two lists, a1 and a2, and returns True if a2 is a rotation of a1 and False otherwise. For example, [2,3,4,5,6] is a rotation of [4,5,6,2,3]. A list is a rotation of itself.",
-          "language" : "python",
-          "snippet" : ""
+        "key": "05",
+        "type": "Editor",
+        "question": {
+          "problem": "Write the function isRotation(a1, a2) that takes two lists, a1 and a2, and returns True if a2 is a rotation of a1 and False otherwise. For example, [2,3,4,5,6] is a rotation of [4,5,6,2,3]. A list is a rotation of itself.",
+          "language": "python",
+          "snippet": ""
         }
       }
     ]
   },
-
-  "answerkey" : {
-    "answers" : [
+  "answerkey": {
+    "answers": [
       {
-        "key":"01",
+        "key": "01",
         "type": "Fillup",
         "answer": "182"
       },
       {
-        "key":"02",
+        "key": "02",
         "type": "Fillup",
         "answer": "{'Jodi', 'Vicki', 'Eric', 'Garry'}"
       },
       {
-        "key":"03",
+        "key": "03",
         "type": "Fillup",
         "answer": "0\n1\n2"
       }
     ]
+  },
+  "answers": {
   }
 }
