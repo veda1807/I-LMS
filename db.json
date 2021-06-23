@@ -20,7 +20,7 @@
         "key": "02",
         "type": "Fillup",
         "question": {
-          "problem": "",
+          "problem": "What is the missing of the below code snippet?",
           "snippet": "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)",
           "language": "python"
         }
@@ -29,8 +29,8 @@
         "key": "03",
         "type": "Fillup",
         "question": {
-          "problem": "",
-          "snippet": "for i in range(2):\n\tprint(i)",
+          "problem": "What is the output of the below code snippet?",
+          "snippet": "nterms = 7\nn1, n2 = 0, 1\ncount = 0\nwhile count < nterms:\n\tprint(n1)\n\tnth = n1 + n2\n\tn1 = n2\n\tn2 = nth\n\tcount += 1",
           "language": "python"
         }
       },
@@ -55,7 +55,15 @@
         "key": "05",
         "type": "Editor",
         "question": {
-          "problem": "Write the function isRotation(a1, a2) that takes two lists, a1 and a2, and returns True if a2 is a rotation of a1 and False otherwise. For example, [2,3,4,5,6] is a rotation of [4,5,6,2,3]. A list is a rotation of itself.",
+          "problem": "You are given  words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.\n\nConstraints:\nThe sum of the lengths of all the words do not exceed\nAll the words are composed of lowercase English letters only.\n\nInput Format\nThe first line contains the integer,\nThe next  lines each contain a word.\n\nOutput Format\nOutput  lines.\nOn the first line, output the number of distinct words from the input.\nOn the second line, output the number of occurrences for each distinct word according to their appearance in the input.",
+          "sample": [
+            {
+              "id": "2",
+              "input": "4\nbcdef\nabcdefg\nbcde\nbcdef\\n",
+              "output": "3\n2 1 1"
+            }
+          ],
+          "explanation": "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
           "language": "python",
           "snippet": ""
         }
@@ -77,10 +85,17 @@
       {
         "key": "03",
         "type": "Fillup",
-        "answer": "0\n1\n2"
+        "answer": "0\n1\n1\n2\n3\n5\n8"
       }
     ]
   },
   "answers": {
+    "studentResponses": {
+      "1": "182",
+      "2": "{'Jodi', 'Eric', 'Garry'}",
+      "3": "0\n1\n2\n",
+      "4": "for i in range(10):\n\tprint(i)"
+    },
+    "timeTaken": "NaN:NaN:NaN"
   }
 }
