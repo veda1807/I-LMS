@@ -20,7 +20,7 @@
         "key": "02",
         "type": "Fillup",
         "question": {
-          "problem": "What is the missing of the below code snippet?",
+          "problem": "What is the output of the below code snippet?",
           "snippet": "num = int(input(\"Enter a number: \"))\nsum = 0\ntemp = num\nwhile temp > 0:\n\tdigit = temp % 10\nsum += digit ** 3\ntemp //= 10\nif num == sum:\n\tprint(num,\"is an Armstrong number\")\nelse:\n\tprint(num,\"is not an Armstrong number\")",
           "language": "python"
         }
@@ -92,6 +92,6 @@
   "answers": {
     "attemptedQuestions": 0,
     "studentResponses": [],
-    "timeTaken": "00:00:10"
+    "timeTaken": "00:00:24"
   }
 }
