@@ -20,8 +20,8 @@
         "key": "02",
         "type": "Fillup",
         "question": {
-          "problem": "What is the output of the below code snippet?",
-          "snippet": "num = int(input(\"Enter a number: \"))\nsum = 0\ntemp = num\nwhile temp > 0:\n\tdigit = temp % 10\nsum += digit ** 3\ntemp //= 10\nif num == sum:\n\tprint(num,\"is an Armstrong number\")\nelse:\n\tprint(num,\"is not an Armstrong number\")",
+          "problem": "What will be the output when num = 153?",
+          "snippet": "def armstrong(num):\n\tsum = 0\n\ttemp = num\n\twhile temp > 0:\n\t\tdigit = temp % 10\n\t\tsum += digit ** 3\n\t\ttemp //= 10\n\tif num == sum:\n\t\treturn True\n\telse:\n\t\treturn False",
           "language": "python"
         }
       },
@@ -48,7 +48,7 @@
           ],
           "explanation": "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
           "language": "python",
-          "snippet": "for i in range(10):\n\tprint(i)"
+          "snippet": "n = int(input())\nwords = []\nfor i in range(n):\n\twords.append(input())\n#Write your code below:\n"
         }
       },
       {
@@ -80,7 +80,7 @@
       {
         "key": "02",
         "type": "Fillup",
-        "answer": "{'Jodi', 'Vicki', 'Eric', 'Garry'}"
+        "answer": "True"
       },
       {
         "key": "03",
@@ -92,6 +92,6 @@
   "answers": {
     "attemptedQuestions": 0,
     "studentResponses": [],
-    "timeTaken": "00:00:24"
+    "timeTaken": "00:00:34"
   }
 }
