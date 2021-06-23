@@ -11,8 +11,8 @@
         "key": "01",
         "type": "Fillup",
         "question": {
-          "problem": "Solve",
-          "snippet": "x = 36 / 4 * (3 +  2) * 4 + 2\nprint(x)",
+          "problem": "What is the missing of the below code snippet?",
+          "snippet": "lower = 1\nupper = 100\nprint(\"Prime numbers between\", lower, \"and\", upper, \"are:\")\nfor num in range(lower, ________):\n\tif num > 1:\n\t\tfor i in range(2, num):\n\t\t\tif (num % i) == 0:\n\t\t\t\tbreak\n\t\telse:\n\t\t\tprint(num)",
           "language": "python"
         }
       },
@@ -21,7 +21,7 @@
         "type": "Fillup",
         "question": {
           "problem": "What is the missing of the below code snippet?",
-          "snippet": "sampleSet = {'Jodi', 'Eric', 'Garry'}\nsampleSet.add(1, 'Vicki')\nprint(sampleSet)",
+          "snippet": "num = int(input(\"Enter a number: \"))\nsum = 0\ntemp = num\nwhile temp > 0:\n\tdigit = temp % 10\nsum += digit ** 3\ntemp //= 10\nif num == sum:\n\tprint(num,\"is an Armstrong number\")\nelse:\n\tprint(num,\"is not an Armstrong number\")",
           "language": "python"
         }
       },
@@ -75,7 +75,7 @@
       {
         "key": "01",
         "type": "Fillup",
-        "answer": "182"
+        "answer": "upper+1"
       },
       {
         "key": "02",
@@ -90,12 +90,8 @@
     ]
   },
   "answers": {
-    "studentResponses": {
-      "1": "182",
-      "2": "{'Jodi', 'Eric', 'Garry'}",
-      "3": "0\n1\n2\n",
-      "4": "for i in range(10):\n\tprint(i)"
-    },
-    "timeTaken": "NaN:NaN:NaN"
+    "attemptedQuestions": 0,
+    "studentResponses": [],
+    "timeTaken": "00:00:10"
   }
 }
