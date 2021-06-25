@@ -55,15 +55,14 @@
         "key": "05",
         "type": "Editor",
         "question": {
-          "problem": "You are given  words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.\n\nConstraints:\nThe sum of the lengths of all the words do not exceed\nAll the words are composed of lowercase English letters only.\n\nInput Format\nThe first line contains the integer,\nThe next  lines each contain a word.\n\nOutput Format\nOutput  lines.\nOn the first line, output the number of distinct words from the input.\nOn the second line, output the number of occurrences for each distinct word according to their appearance in the input.",
+          "problem": "Bin packing, or the placement of objects of certain weights into different bins subject to certain con-straints, is an historically interesting problem.  Some bin packing problems are NP-complete but areamenable to dynamic programming solutions or to approximately optimal heuristic solutions.In this problem you will be solving a bin packing problem that deals with recycling glass.Recycling glass requires that the glass be separated by color into one of three categories:  brownglass, green glass, and clear glass. In this problem you will be given three recycling bins, each containinga specified number of brown, green and clear bottles. In order to be recycled, the bottles will need tobe moved so that each bin contains bottles of only one color.The problem is to minimize the number of bottles that are moved. You may assume that the onlyproblem is to minimize the number of movements between boxes.For the purposes of this problem, each bin has infinite capacity and the only constraint is movingthe bottles so that each bin contains bottles of a single color. The total number of bottles will never exceed 231.\nINPUT\n The input consists of a series of lines with each line containing 9 integers. The first three integers on aline represent the number of brown, green, and clear bottles (respectively) in bin number 1, the secondthree represent the number of brown, green and clear bottles (respectively) in bin number 2, and thelast three integers represent the number of brown, green, and clear bottles (respectively) in bin number3. For example, the line10 15 20 30 12 8 15 8 31 indicates that there are 20 clear bottles in bin 1, 12 green bottles in bin 2, and 15 brown bottles in bin3.Integers on a line will be separated by one or more spaces. Your program should process all linesin the input file.\n OUTPUT\n For each line of input there will be one line of output indicating what color bottles go in what binto minimize the number of bottle movements.  You should also print the minimum number of bottlemovements.The output should consist of a string of the three upper case characters ‘G’, ‘B’, ‘C’ (representingthe colors green, brown, and clear) representing the color associated with each bin.The first character of the string represents the color associated with the first bin, the second characterof the string represents the color associated with the second bin, and the third character represents thecolor associated with the third bin.The integer indicating the minimum number of bottle movements should follow the string.If more than one order of brown, green, and clear bins yields the minimum number of movementsthen the alphabetically first string representing a minimal configuration should be printed.",
           "sample": [
             {
-              "id": "2",
-              "input": "4\nbcdef\nabcdefg\nbcde\nbcdef\\n",
-              "output": "3\n2 1 1"
+              "id": "1",
+              "input": "1 2 3 4 5 6 7 8 9\n 5  10  5  20  10  5  10  20  10",
+              "output": "BCG 30\nCBG 50"
             }
           ],
-          "explanation": "There are  distinct words. Here, \"bcdef\" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are \"bcdef\", \"abcdefg\" and \"bcde\" which corresponds to the output.",
           "language": "python",
           "snippet": ""
         }
@@ -92,6 +91,6 @@
   "answers": {
     "attemptedQuestions": 0,
     "studentResponses": [],
-    "timeTaken": "00:00:34"
+    "timeTaken": "00:00:23"
   }
 }
