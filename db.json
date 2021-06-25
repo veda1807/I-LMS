@@ -12,7 +12,7 @@
         "type": "Fillup",
         "question": {
           "problem": "What is the missing of the below code snippet?",
-          "snippet": "lower = 1\nupper = 100\nprint(\"Prime numbers between\", lower, \"and\", upper, \"are:\")\nfor num in range(lower, ________):\n\tif num > 1:\n\t\tfor i in range(2, num):\n\t\t\tif (num % i) == 0:\n\t\t\t\tbreak\n\t\telse:\n\t\t\tprint(num)",
+          "snippet": "lower,upper = 1,100\nfor num in range(lower, ________):\n\tif num > 1:\n\t\tfor i in range(2, num):\n\t\t\tif (num % i) == 0:\n\t\t\t\tbreak\n\t\telse:\n\t\t\tprint(num)",
           "language": "python"
         }
       },
